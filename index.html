@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="This ia a project to create a countdown timer to a particular day using js, html and css....">
+    <meta name="author" content="Ugwoke Nmasinachi Mary">
+    <meta name="keywords" content="Give away, countdown, june, FlyHigh, loafers">
+    <link rel="stylesheet" href="style.css">
+    <title>Giveaway Countdown</title>
+</head>
+
+<body>
+  <div class="container"><!--Container for entire body-->
+
+        <div class="image"><!--Container for Image-->
+            <img src="sneaker-nike.jpg" alt="Giveaway Item!">
+        </div>
+
+    <div class="text_message"><!--Container for text-->
+            <h1 style="color: #5DADE2;">AIRFORCE GIVEAWAY!!</h1>
+            <p class="text">Giveaway Ends on Monday, 3 June 2024 at 11:30 am</p>
+            <p class="text2">My name is Ugwoke Nmasinachi with an App Id- 157399. I will be giving a free AIRFORCE nike to the winner of the FlyHigh Contest. So make sure you register for the game and who knows you could be the lucky winner. Good luck!!</p>
+
+        <div class="countdown_container"><!--container for timer-->
+            <div class="title_box">
+               <span class="value" id="day">00</span><!--display number of days-->
+               <p class="title">DAYS</p>
+            </div>
+            <div class="title_box">
+              <span class="value" id="hour">00</span><!--display number of hours-->
+              <p class="title">HOURS</p>
+            </div>
+            <div class="title_box">
+              <span class="value" id="min">00</span><!--display number of minutes-->
+              <p class="title">MINS</p>
+            </div>
+            <div class="title_box">
+              <span class="value" id="sec">00</span><!--display number of seconds-->
+              <p class="title">SECS</p>
+            </div>
+
+            <div class="countdown_over"><!--container for text when countdown is over-->
+              <p style="color:red;font-weight: bolder;" id="countdown_over"></p>
+            </div>
+        </div>
+    </div>
+  </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
